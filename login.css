@@ -1,0 +1,72 @@
+body{
+	
+	background-image: url("img.fondo/img6.jfif");
+	background-position:center;
+background-repeat:no-repeat;
+background-position:center center center;
+background-attachment: fixed;
+background-size:cover;
+
+
+}
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f2f5;
+    }
+
+    .container {
+      max-width: 350px;
+      margin: 100px auto;
+     background:
+  linear-gradient(92deg, #504a4a 20%, #622c2c);
+  
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .container h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #1877f2;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-group label {
+      display: block;
+      font-weight: bold;
+    }
+
+    .form-group input[type="text"],
+    .form-group input[type="password"] {
+      width: 90%;
+      padding: 10px;
+      border: 1px solid #841616;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+
+    .form-group a {
+      width: 100%;
+      padding: 10px;
+      background-color: #1a1f24;
+      border: none;
+      color: #fff;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .form-group a:hover {
+      background-color: #166fe5;
+    }
+	p{
+		color:#fff;
+	}
+ a{
+	color:#26ffaf;
+}

@@ -1,0 +1,24 @@
+.login-register-buttons {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.login-button,
+.register-button {
+  margin-right: 10px;
+}
+
+.login-button a,
+.register-button a {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+}
+
+.login-button a:hover,
+.register-button a:hover {
+  background-color: #2980b9;
+}
+

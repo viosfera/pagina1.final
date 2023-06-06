@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de Registro estilo Facebook</title>
+  <link rel="stylesheet" href="registro.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Crear una cuenta</h2>
+    <form method="post" action="registro.php">
+      <div class="form-group">
+        <label for="name">Nombre</label>
+        <input type="text" id="name" name="name" placeholder="Ingrese su nombre" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" name="email" placeholder="Ingrese su correo electrónico" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Contraseña</label>
+        <input type="password" id="password" name="password" placeholder="Ingrese su contraseña" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Mensaje</label>
+        <textarea id="message" name="message" placeholder="Ingrese su mensaje"></textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit">Registrarse</button>
+      </div>
+    </form>
+	<p>¿Ya tienes una cuenta? <a href="login.html">Iniciar sesión</a></p>
+  </div>
+</body>
+</html>
